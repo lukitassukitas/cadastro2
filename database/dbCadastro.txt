@@ -1,0 +1,15 @@
+		BANCO DE DADOS
+
+create DATABASE dbCadastro;
+
+use dbCadastro;
+
+create table tbCadastro(
+    idCadastro int primary key AUTO_INCREMENT,
+    nome varchar(250),
+    cpf varchar(250),
+    rm varchar (250),
+    curso varchar (250),
+    ddn varchar (250),
+    modulo varchar (250)  
+);
